@@ -1,4 +1,4 @@
-body {
+rbody {
     font-family: 'Libre Bodoni', Courier, serif;
     color: #171561ff;
     margin: 0;
@@ -13,7 +13,7 @@ body {
     
     header div {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         text-align: center;
         width: 55%;
         margin: auto auto;
