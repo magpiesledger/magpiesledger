@@ -1,0 +1,40 @@
+body {
+    font-family: 'Libre Bodoni', Courier, serif;
+    color: #171561ff;
+    background-color:  #fcf3e4ff;
+}
+
+header {
+    /* border: 1px solid blue; */
+    padding: 1rem;
+}
+
+.headerImage {
+    width: 10rem;
+    /* border: 1px solid lime; */
+}
+
+h1 {
+    /* border: 1px solid hotpink; */
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+
+section {
+    padding: 1rem;
+    min-height: 50vh;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+footer {
+    padding: 1rem 4rem;
+
+}
+footer p {
+    font-size: 0.75rem;
+}
+
+

@@ -1,0 +1,189 @@
+body {
+    font-family: 'Libre Bodoni', Courier, serif;
+    color: #171561ff;
+    margin: 0;
+}
+
+@media (min-width: 451px) {
+    header{
+        background-color: #fcf3e4ff;
+        padding: 1rem 0.75rem ;
+        ;
+    }
+    
+    header div {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        width: 55%;
+        margin: auto auto;
+    }
+
+    .headerImage {
+        width: 12rem;
+        aspect-ratio: 1;
+        margin-right: 0.75rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
+
+    section {
+        padding: 1.5rem 2rem;
+
+    }
+
+    .bannerImage {
+        padding: 0;
+        background-color: #fcf3e4ff;
+    }
+
+    .bannerImage .banner1 {
+        width: 100%;
+    }
+
+    .bannerImage .banner2 {
+        display: none;
+    }
+
+    .details {
+        background-color: #fcf3e4ff;
+    }
+
+    .card {
+        width: 55%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        border: 2px solid #171561ff;
+        border-radius: 10px;
+        padding: 0.75rem 0;
+    }
+
+    .card img {
+        width: 40%;
+        aspect-ratio: 1;
+        margin-right: 1rem;    
+    }
+
+    .card p {
+        width: 40%;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 1.5rem;
+    }
+
+    .findUs {
+        width: 50%;
+        margin: auto auto;
+    }
+
+    .findUs h2 {
+        font-size: 2.5rem;
+    }
+
+    .findUs p {
+        font-size: 1.5rem;
+    }
+
+    .findUs img {
+        width: 100%;
+    }
+
+    footer {
+        background-color: #fcf3e4ff;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 0.75rem;
+    }
+}
+
+
+
+@media (max-width: 450px) {
+
+    header{
+        background-color: #fcf3e4ff;
+        padding: 1rem 0.75rem ;
+        display: flex;
+    }
+
+    .headerImage {
+        width: 7.5rem;
+        aspect-ratio: 1;
+        margin-right: 0.75rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    section {
+        padding: 1.5rem 2rem;
+
+    }
+
+    .bannerImage {
+        padding: 0;
+        background-color: #fcf3e4ff;
+    }
+
+    .bannerImage .banner1 {
+        display: none;
+    }
+
+    .bannerImage .banner2 {
+        width: 100%;
+    }
+
+    .details {
+        background-color: #fcf3e4ff;
+    }
+
+    .card {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+        border: 2px solid #171561ff;
+        border-radius: 10px;
+        padding: 0.75rem 0;
+    }
+
+    .card img {
+        width: 40%;
+        aspect-ratio: 1;
+        margin-right: 1rem;    
+    }
+
+    .card p {
+        width: 40%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .findUs img {
+        width: 80vw;
+    }
+
+    footer {
+        background-color: #fcf3e4ff;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 0.75rem;
+    }
+
+}
